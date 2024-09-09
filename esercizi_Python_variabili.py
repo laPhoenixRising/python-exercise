@@ -11,9 +11,9 @@ età = 36
 print(età)
 
 # Esercizio 3
-# Dichiarare una variabile "pi" e assegnargli il valore di pi greco (3,14159). Mandare a schermo.
+# Dichiarare una variabile "pi" e assegnargli il valore di pi greco (3.14159). Mandare a schermo.
 
-pi = 3,14159
+pi = 3.14159
 print(pi)
 
 # Esercizio 4
@@ -29,7 +29,7 @@ print(lunghezza)
 # assegnargli una stringa contenente il tuo nome e cognome. 
 # Mandare a schermo.
 
-nome_completo = ('Francesca Colombo')
+nome_completo = 'Francesca Colombo'
 print(nome_completo)
 
 # Esercizio 6
@@ -37,7 +37,7 @@ print(nome_completo)
 # assegnargli il valore dell'età che avrai tra 10 anni 
 # (utilizzando la variabile età già esistente). Mandare a schermo.
 
-età_futura = (età + 10)
+età_futura = età + 10
 print(età_futura)
 
 # Esercizio 7
@@ -49,25 +49,22 @@ nome = 'Francesca'
 cognome = 'Colombo'
 anno_di_nascita = 1988
 
-print(nome,
-      cognome,
-      anno_di_nascita)
+print(nome, cognome, anno_di_nascita)
 
 nome = 'Maurizio'
 cognome = 'De Magnis'
 anno_di_nascita = 1983
 
-print(nome,
-      cognome,
-      anno_di_nascita)
+print(nome, cognome, anno_di_nascita)
 
 # Esercizio 8
 # Creare una variabile `eta_attuale` e assegnargli il valore dell'età che hai attualmente, 
 # calcolandola in base all'anno corrente. 
 # Mandare a schermo `eta_attuale`
 
+anno_di_nascita = 1988
 anno_corrente = 2024
-età_attuale = (anno_corrente - anno_di_nascita)
+età_attuale = anno_corrente - anno_di_nascita
 
 print(età_attuale)
 
