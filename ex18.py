@@ -18,5 +18,8 @@ def print_none():
 
 print_two("Zed", "Shaw")
 print_two_again("Zed", "Shaw")
+first_name = "Zed"
+last_name = "Shaw"
+print_two_again(first_name, first_name)
 print_one("Primo!")
 print_none()
