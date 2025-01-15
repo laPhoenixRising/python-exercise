@@ -6,4 +6,8 @@ for x in range(n):
     m = int(m)
     lista.append(m)
 
-print(lista)    
+input("Grazie.Premere invio per stampare la lista.")
+i = 1
+for el in lista:
+    print(f"{i}: {el}")
+    i += 1
